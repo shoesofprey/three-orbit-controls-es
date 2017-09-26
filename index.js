@@ -1045,3 +1045,5 @@ const OrbitControls = function ( object, domElement ) {
     }
 
   } );
+
+export default OrbitControls
