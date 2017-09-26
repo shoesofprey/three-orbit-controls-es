@@ -29,5 +29,8 @@
   },
   "devDependencies": {
     "rollup": "^0.50.0"
-  }
+  },
+  "files": [
+    "build"
+  ]
 }
