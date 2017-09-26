@@ -1,5 +1,5 @@
 {
-  "name": "three-orbit-controls-es",
+  "name": "@shoesofprey/three-orbit-controls-es",
   "version": "0.0.1",
   "description": "Orbit Controls for three.js as an es module, with typescript definitions.",
   "main": "index.js",
