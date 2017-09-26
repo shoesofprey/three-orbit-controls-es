@@ -1,5 +1,5 @@
 # three-orbit-controls-es
-Orbit Controls for three.js as an es module, with typedefinitions
+Orbit Controls for three.js as an es module, with type definitions.
 
 [![NPM](https://nodei.co/npm-dl/three-orbit-controls-es.png)](https://nodei.co/npm-dl/three-orbit-controls-es/)
 
@@ -7,11 +7,11 @@ This is taken from the original OrbitControls example in three.js, but modified 
 1) It uses modules and exports as one, rather than requiring all of three.js
 2) It has a dependency on three.js. This means it's tied to a specific verison of three.js.
 
-This package is similar to some existing ones but modified for our needs. Might be useful for others. See [this issue for the rationale](https://github.com/mattdesl/three-orbit-controls/issues/17) 
+This package is similar to some existing ones but modified for our needs. Might be useful for others. See [this issue for the rationale](https://github.com/mattdesl/three-orbit-controls/issues/17).
 
-All credit goes to [OrbitControls.js][original_orbitcontrols] contributors.
-I have just **stolen** the code and modified to export it as a module
-so you can do something like
+Like the other similar packages - All credit goes to [OrbitControls.js][original_orbitcontrols] contributors. This just exports it as an es module, to make it better suited for our build.
+
+This only works in environments where `import { X } from "y"` works (or is transpiled, e.g with webpack).
 
 ```javascript
 import { PerspectiveCamera, WebGLRenderer } from "three"
